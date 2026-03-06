@@ -33,7 +33,8 @@ as syntax highlighting has been implemented for a few languages.
   - JSON syntax highlighting
   - YAML syntax highlighting
   - Markdown syntax highlighting
-  - HTML, CSS, JS, TS, Python syntax highlighting
+  - HTML, CSS, SCSS, JS, TS, Python syntax highlighting
+  - Go, Rust, Zig, Bash syntax highlighting
   - EditorConfig syntax highlighting
 - Configuration helper to easily match the IntelliJ visuals
 

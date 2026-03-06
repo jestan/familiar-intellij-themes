@@ -386,6 +386,30 @@
 		"*:css": {
 			"foreground": "#A9B7C6",
 			"fontStyle": ""
+		},
+		"*:scss": {
+			"foreground": "#A9B7C6",
+			"fontStyle": ""
+		},
+		"*:go": {
+			"foreground": "#A9B7C6",
+			"fontStyle": ""
+		},
+		"*:rust": {
+			"foreground": "#A9B7C6",
+			"fontStyle": ""
+		},
+		"*:zig": {
+			"foreground": "#A9B7C6",
+			"fontStyle": ""
+		},
+		"*:shellscript": {
+			"foreground": "#A9B7C6",
+			"fontStyle": ""
+		},
+		"*:shell": {
+			"foreground": "#A9B7C6",
+			"fontStyle": ""
 		}
 	}
 }

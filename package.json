@@ -4,7 +4,7 @@
 	"description": "Familiar color themes inspired by IntelliJ IDEA.",
 	"author": "jestan <jestannirojan@gmail.com>",
 	"publisher": "jestan",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"preview": true,
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"engines": {

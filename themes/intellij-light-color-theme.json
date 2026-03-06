@@ -371,6 +371,30 @@
 		"*:css": {
 			"foreground": "#000000",
 			"fontStyle": ""
+		},
+		"*:scss": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"*:go": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"*:rust": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"*:zig": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"*:shellscript": {
+			"foreground": "#000000",
+			"fontStyle": ""
+		},
+		"*:shell": {
+			"foreground": "#000000",
+			"fontStyle": ""
 		}
 	}
 }
