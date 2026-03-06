@@ -1,10 +1,10 @@
 {
-	"name": "familiar-java-themes",
-	"displayName": "Familiar Java Themes",
-	"description": "Familiar color themes inspired by Java IDEs like Eclipse and IntelliJ IDEA.",
-	"author": "0dinD <zerodind@gmail.com>",
-	"publisher": "zerodind",
-	"version": "0.1.7",
+	"name": "familiar-intellij-themes",
+	"displayName": "Familiar IntelliJ Themes",
+	"description": "Familiar color themes inspired by IntelliJ IDEA.",
+	"author": "jestan <jestannirojan@gmail.com>",
+	"publisher": "jestan",
+	"version": "0.0.1",
 	"preview": true,
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"engines": {
@@ -14,19 +14,17 @@
 		"Themes"
 	],
 	"keywords": [
-		"java",
-		"eclipse",
 		"intellij",
 		"darcula",
 		"semantic-highlighting"
 	],
-	"homepage": "https://gitlab.com/zerodind/familiar-java-themes",
+	"homepage": "https://github.com/jestan/familiar-intellij-themes",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.com/zerodind/familiar-java-themes.git"
+		"url": "https://github.com/jestan/familiar-intellij-themes.git"
 	},
 	"bugs": {
-		"url": "https://gitlab.com/zerodind/familiar-java-themes/-/issues"
+		"url": "https://github.com/jestan/familiar-intellij-themes/issues"
 	},
 	"icon": "logo.png",
 	"main": "extension.js",
@@ -43,34 +41,14 @@
 		],
 		"themes": [
 			{
-				"label": "Eclipse Light",
-				"uiTheme": "vs",
-				"path": "./themes/eclipse-light-color-theme.json"
-			},
-			{
-				"label": "Eclipse Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/eclipse-dark-color-theme.json"
-			},
-			{
 				"label": "IntelliJ Light",
 				"uiTheme": "vs",
 				"path": "./themes/intellij-light-color-theme.json"
 			},
 			{
-				"label": "IntelliJ Light (Classic)",
-				"uiTheme": "vs",
-				"path": "./themes/intellij-light-classic-color-theme.json"
-			},
-			{
 				"label": "IntelliJ Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/intellij-dark-color-theme.json"
-			},
-			{
-				"label": "IntelliJ+Eclipse Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/intellij-eclipse-dark-color-theme.json"
 			}
 		]
 	}

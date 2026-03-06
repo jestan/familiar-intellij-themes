@@ -1,20 +1,11 @@
-# Familiar Java Themes
-This extension brings back the default color themes from your favorite Java IDEs,
-such as **[Eclipse][1]** and **[IntelliJ IDEA][2]**! Currently a work in progress,
-as syntax highlighting has only a been implemented for a few Java-related languages.
+# Familiar IntelliJ Themes
+This extension brings back the default color themes from your favorite Java IDE,
+**[IntelliJ IDEA][2]**! Currently a work in progress,
+as syntax highlighting has been implemented for a few languages.
 
 ## Screenshots
 *The screenshots below are taken with the [configuration tips][3] applied.*
-<details>
-  <summary>Eclipse Dark theme</summary>
 
-  ![eclipse-dark](screenshots/eclipse-dark.png "Eclipse Dark theme")
-</details>
-<details>
-  <summary>Eclipse Light theme</summary>
-
-  ![eclipse-light](screenshots/eclipse-light.png "Eclipse Light theme")
-</details>
 <details>
   <summary>IntelliJ Dark theme</summary>
 
@@ -29,23 +20,12 @@ as syntax highlighting has only a been implemented for a few Java-related langua
 
   ![intellij-light-terminal](screenshots/intellij-light-terminal.png "ANSI terminal colors for the IntelliJ Light theme")
 </details>
-<details>
-  <summary>IntelliJ Light (Classic) theme</summary>
 
-  ![intellij-light-classic](screenshots/intellij-light-classic.png "IntelliJ Light (Classic) theme")
-
-  ![intellij-light-classic-terminal](screenshots/intellij-light-classic-terminal.png "ANSI terminal colors for the IntelliJ Light (Classic) theme")
-</details>
 
 ## Features
 - Editor themes
-  - Eclipse Dark
-  - Eclipse Light
   - IntelliJ Dark (also known as "Darcula")
   - IntelliJ Light
-  - IntelliJ Light (Classic)
-  - IntelliJ+Eclipse Dark
-    - Look and feel of IntelliJ with Eclipse Dark semantic coloring
 - Matching themes for syntax highlighting
   - Support for **[semantic highlighting][4]**
   - Java syntax highlighting
@@ -53,8 +33,8 @@ as syntax highlighting has only a been implemented for a few Java-related langua
   - JSON syntax highlighting
   - YAML syntax highlighting
   - Markdown syntax highlighting
+  - HTML, CSS, JS, TS, Python syntax highlighting
   - EditorConfig syntax highlighting
-  - More languages coming soon...
 - Configuration helper to easily match the IntelliJ visuals
 
 # Installing
@@ -166,10 +146,10 @@ suggestion is possible to implement.
 If you like this extension, consider rating it on the [Marketplace][5]/[Registry][6].
 
 # Acknowledgements
-Credit goes to [Eclipse][1] and [IntelliJ IDEA][2] for the original color themes.
+Credit goes to [IntelliJ IDEA][2] for the original color themes.
+This extension is a fork of [Familiar Java Themes](https://gitlab.com/zerodind/familiar-java-themes) created by [0dinD](https://gitlab.com/zerodind). Huge thanks to the original author for the foundational work!
 
 Versions used as reference:
-- `Eclipse IDE for Java Developers` version `2020-06`
 - `IntelliJ IDEA Community Edition` version `2020.2`
 
 [1]: https://www.eclipse.org/eclipseide/
