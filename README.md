@@ -38,9 +38,10 @@ as syntax highlighting has been implemented for a few languages.
 - Configuration helper to easily match the IntelliJ visuals
 
 # Installing
-### The extension can be installed from:
-- [Visual Studio Marketplace][5]
-- [Open VSX Registry][6]
+### The extension can be built and installed manually:
+1. Clone the repository: `git clone https://github.com/jestan/familiar-intellij-themes`
+2. Run `npm install` and then `npx vsce package` to create a `.vsix` file.
+3. Install from VSIX in VS Code.
 
 ### After installation
 Select your preferred color theme from the VS Code settings, and optionally see
@@ -143,7 +144,7 @@ suggestion is possible to implement.
     which limits how well the themes can match their respective IDE.
 </details>
 
-If you like this extension, consider rating it on the [Marketplace][5]/[Registry][6].
+If you like this extension, consider giving it a star on GitHub!
 
 # Acknowledgements
 Credit goes to [IntelliJ IDEA][2] for the original color themes.
@@ -156,8 +157,6 @@ Versions used as reference:
 [2]: https://www.jetbrains.com/idea/
 [3]: #configuration-tips
 [4]: https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview
-[5]: https://marketplace.visualstudio.com/items?itemName=zerodind.familiar-java-themes
-[6]: https://open-vsx.org/extension/zerodind/familiar-java-themes
 [7]: https://github.com/redhat-developer/vscode-java
 [8]: https://www.jetbrains.com/lp/mono/#how-to-install
-[9]: https://gitlab.com/zerodind/familiar-java-themes/-/issues
+[9]: https://github.com/jestan/familiar-intellij-themes/issues
